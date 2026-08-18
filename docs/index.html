@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="darkreader-lock" />
+  <link rel="icon" href="../src/assets/icons/favicon-48.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tài liệu cài đặt và sử dụng PDownloader." />
+  <title>PDownloader Docs</title>
+  <script src="../src/abstraction/theme/theme-init.js"></script>
+  <link rel="stylesheet" href="../src/assets/styles/globals.css" />
+  <link rel="stylesheet" href="./docs.css" />
+</head>
+<body class="docs-page">
+  <a class="skip-link" href="#docs-article" data-i18n="accessibility.skipToContent">Bỏ qua để đến nội dung</a>
+
+  <header class="navbar is-scrolled">
+    <div class="container navbar-inner">
+      <a href="../" class="brand">
+        <img src="../src/assets/icons/pdownloader-icon.png" alt="PDownloader" />
+        <span>PDownloader</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" data-i18n-attr="aria-label:accessibility.primaryNavigation" aria-label="Điều hướng chính">
+        <a href="../index.html#features" data-i18n="nav.features">Tính năng</a>
+        <a href="../index.html#architecture" data-i18n="nav.architecture">Kiến trúc</a>
+        <a href="../index.html#extension" data-i18n="nav.extension">Tiện ích mở rộng</a>
+        <a href="./" aria-current="page" data-i18n="nav.docs">Tài liệu</a>
+        <a href="https://github.com/maihcx/PDownloader" data-href-config="repoUrl" target="_blank" rel="noopener" data-i18n="nav.github">GitHub</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" type="button" data-theme-toggle data-i18n-attr="aria-label:theme.toggle,title:theme.toggle" aria-label="Chuyển giao diện màu" title="Chuyển giao diện màu">
+          <svg class="theme-toggle__sun" width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="3.25" stroke="currentColor" stroke-width="1.5"/><path d="M10 2.25V4M10 16v1.75M17.75 10H16M4 10H2.25M15.48 4.52 14.24 5.76M5.76 14.24l-1.24 1.24M15.48 15.48l-1.24-1.24M5.76 5.76 4.52 4.52" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <svg class="theme-toggle__moon" width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M16.7 12.2A7 7 0 0 1 7.8 3.3a7 7 0 1 0 8.9 8.9Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+
+        <div class="lang-picker" data-lang-picker>
+          <button class="lang-picker__trigger" type="button" data-lang-trigger aria-haspopup="listbox" aria-expanded="false" data-i18n-attr="aria-label:accessibility.language,title:accessibility.language" aria-label="Ngôn ngữ" title="Ngôn ngữ">
+            <svg width="17" height="17" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="7.25" stroke="currentColor" stroke-width="1.4"/><path d="M2.9 10h14.2M10 2.75c2 2.05 3.05 4.47 3.05 7.25S12 15.2 10 17.25C8 15.2 6.95 12.78 6.95 10S8 4.8 10 2.75Z" stroke="currentColor" stroke-width="1.25" stroke-linecap="round"/></svg>
+            <span data-lang-current-code>VI</span>
+            <svg class="lang-picker__chevron" width="13" height="13" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="m4 6 4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="lang-picker__popup" data-lang-menu hidden>
+            <div class="lang-picker__heading" data-i18n="language.choose">Chọn ngôn ngữ</div>
+            <div class="lang-picker__options" role="listbox" data-lang-options data-i18n-attr="aria-label:accessibility.language" aria-label="Ngôn ngữ"></div>
+          </div>
+        </div>
+
+        <button class="nav-toggle" id="nav-toggle" type="button" data-i18n-attr="aria-label:accessibility.openMenu" aria-label="Mở menu" aria-expanded="false" aria-controls="nav-links">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M2 4.5H16M2 9H16M2 13.5H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="docs-main">
+    <div class="container docs-heading">
+      <span class="eyebrow" data-i18n="docs.eyebrow">Tài liệu hướng dẫn</span>
+      <h1 data-i18n="docs.title">Hướng dẫn sử dụng PDownloader</h1>
+      <p data-i18n="docs.intro">Chọn một chủ đề để tìm hiểu cách cài đặt, kết nối, sử dụng và xử lý sự cố PDownloader.</p>
+    </div>
+
+    <div class="container docs-layout">
+      <button class="docs-mobile-menu" type="button" data-docs-menu-toggle aria-expanded="false" aria-controls="docs-sidebar">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3 4h12M3 9h12M3 14h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        <span data-i18n="docs.menu">Danh mục tài liệu</span>
+      </button>
+
+      <aside class="docs-sidebar" id="docs-sidebar" data-docs-sidebar></aside>
+
+      <article class="docs-article" id="docs-article" tabindex="-1">
+        <div class="docs-fallback" data-doc-fallback hidden>
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="7.25" stroke="currentColor" stroke-width="1.4"/><path d="M10 8v5M10 5.8v.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <div><strong data-i18n="docs.fallbackTitle">Đang hiển thị bản tiếng Anh</strong><span data-i18n="docs.fallbackDesc">Bài viết này chưa được dịch sang ngôn ngữ bạn đã chọn.</span></div>
+        </div>
+
+        <div class="docs-status" data-doc-loading>
+          <span class="docs-spinner" aria-hidden="true"></span>
+          <span data-i18n="docs.loading">Đang tải bài viết…</span>
+        </div>
+
+        <div class="docs-status docs-status--error" data-doc-error hidden>
+          <svg width="34" height="34" viewBox="0 0 36 36" fill="none" aria-hidden="true"><path d="M9 4.5h12l6 6v21H9v-27Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M21 4.5v6h6M14 17l8 8M22 17l-8 8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <strong data-i18n="docs.loadError">Không thể tải bài viết này.</strong>
+          <button class="btn btn-secondary" type="button" data-doc-retry data-i18n="docs.retry">Thử lại</button>
+        </div>
+
+        <div class="markdown-body" data-doc-content hidden></div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer docs-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="../src/assets/icons/pdownloader-icon.png" alt="" width="24" height="24" />
+        <span data-i18n="footer.tagline">Trình quản lý tải xuống đa luồng dành cho Windows.</span>
+      </div>
+      <div class="footer-links">
+        <a href="../" data-i18n="docs.backHome">Về trang chủ</a>
+        <a href="https://github.com/maihcx/PDownloader" data-href-config="repoUrl" target="_blank" rel="noopener" data-i18n="footer.source">Mã nguồn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./docs.js"></script>
+</body>
+</html>

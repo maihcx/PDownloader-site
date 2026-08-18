@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap");
+@import "./base/tokens.css";
+@import "./base/reset.css";
+@import "./base/typography.css";
+@import "./base/layout.css";
+@import "./components/primitives.css";
+@import "./sections/header.css";
+@import "./sections/home.css";
+@import "./sections/features.css";
+@import "./sections/architecture.css";
+@import "./sections/extension.css";
+@import "./sections/download.css";
+@import "./sections/footer.css";
+@import "./utilities/animations.css";
+@import "./utilities/responsive.css";
