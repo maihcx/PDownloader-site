@@ -16,7 +16,8 @@ export const en = {
   },
   meta: {
     title: "PDownloader — Multi-threaded Download Manager for Windows",
-    description: "Split downloads into parallel segments, resume what breaks, and pull YouTube & HLS streams into one queue.",
+    description:
+      "Split downloads into parallel segments, resume what breaks, and pull YouTube & HLS streams into one queue.",
   },
   nav: {
     features: "Features",
@@ -27,16 +28,19 @@ export const en = {
   },
   docs: {
     metaTitle: "PDownloader Docs",
-    metaDescription: "Installation, browser integration, troubleshooting, and removal guides for PDownloader.",
+    metaDescription:
+      "Installation, browser integration, troubleshooting, and removal guides for PDownloader.",
     eyebrow: "Documentation",
     title: "PDownloader guides",
-    intro: "Choose a topic to learn how to install, connect, use, and troubleshoot PDownloader.",
+    intro:
+      "Choose a topic to learn how to install, connect, use, and troubleshoot PDownloader.",
     menu: "Documentation menu",
     loading: "Loading article…",
     loadError: "This article could not be loaded.",
     retry: "Try again",
     fallbackTitle: "English version shown",
-    fallbackDesc: "This article has not been translated into your selected language yet.",
+    fallbackDesc:
+      "This article has not been translated into your selected language yet.",
     backHome: "Back to home",
     categories: {
       gettingStarted: "Getting started",
@@ -63,7 +67,8 @@ export const en = {
     metaThreads: "8 parallel segments by default",
     metaStack: ".NET 10 · WPF · MVVM",
     metaLicense: "GPL-3.0 licensed",
-    previewLabel: "PDownloader.Runner showing three states: downloading, merging the file, and completed",
+    previewLabel:
+      "PDownloader.Runner showing three states: downloading, merging the file, and completed",
     runner: {
       title: "PDownloader — Download manager",
       downloading: "Downloading",
@@ -82,12 +87,14 @@ export const en = {
     label: "download.bin",
     statusRunning: "downloading — 8 segments",
     statusMerged: "merged into 1 file",
-    caption: "Each segment is its own ranged request. A failed one retries with back-off — the rest keep going.",
+    caption:
+      "Each segment is its own ranged request. A failed one retries with back-off — the rest keep going.",
   },
   features: {
     eyebrow: "What it does",
     title: "One engine, every kind of download",
-    subtitle: "The same engine handles plain files, broken connections, and streaming media — no separate tools to juggle.",
+    subtitle:
+      "The same engine handles plain files, broken connections, and streaming media — no separate tools to juggle.",
     segments: {
       title: "Multi-segment downloading",
       desc: "Splits a file into parallel byte-range requests — 8 threads by default — with automatic fallback to a single stream when the server won't range.",
@@ -142,22 +149,25 @@ export const en = {
   extension: {
     eyebrow: "Browser extension",
     title: "Capture links without leaving the page",
-    subtitle: "Now officially available on the Chrome Web Store for Chromium-based browsers.",
+    subtitle:
+      "Now officially available on the Chrome Web Store for Chromium-based browsers.",
     storeButton: "Install browser extension",
     supportNote: "Chrome · Edge · Brave · Cốc Cốc",
     bridgeOnline: "Local bridge ready",
     item1: "Context menu entries on links, videos, and pages.",
-    item2: "Popup for entering a URL by hand, picking a save folder, and listing downloadable links on the page.",
+    item2:
+      "Popup for entering a URL by hand, picking a save folder, and listing downloadable links on the page.",
     item3: "Automatic capture of clicks on common downloadable file types.",
     item4: "Desktop notifications for successful queuing or connection errors.",
-    flowStep1: "click \"Download with PDownloader\"",
+    flowStep1: 'click "Download with PDownloader"',
     flowStep2: "POST localhost:6287/download",
     flowStep3: "Core parses & forwards over CFS",
     flowStep4: "Runner enqueues → DownloadEngine starts",
     modal: {
       eyebrow: "Official browser extension",
       title: "Choose your browser engine",
-      subtitle: "One extension package supports every browser built on the same engine.",
+      subtitle:
+        "One extension package supports every browser built on the same engine.",
       close: "Close",
       available: "Available",
       comingSoon: "Coming soon",
@@ -173,7 +183,8 @@ export const en = {
   cta: {
     eyebrow: "Get started",
     title: "Build it from source, or grab the installer",
-    subtitle: "PDownloader is open source under GPL-3.0. Clone it, read the engine, or just install the app.",
+    subtitle:
+      "PDownloader is open source under GPL-3.0. Clone it, read the engine, or just install the app.",
     primary: "Download latest release",
     secondary: "Browse the source",
     req1: ".NET 10 SDK",

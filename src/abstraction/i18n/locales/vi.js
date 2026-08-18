@@ -16,7 +16,8 @@ export const vi = {
   },
   meta: {
     title: "PDownloader — Trình quản lý tải xuống đa luồng cho Windows",
-    description: "Chia tệp tải xuống thành nhiều phân đoạn song song, tiếp tục khi bị gián đoạn và tải các luồng YouTube & HLS trong cùng một hàng đợi.",
+    description:
+      "Chia tệp tải xuống thành nhiều phân đoạn song song, tiếp tục khi bị gián đoạn và tải các luồng YouTube & HLS trong cùng một hàng đợi.",
   },
   nav: {
     features: "Tính năng",
@@ -27,10 +28,12 @@ export const vi = {
   },
   docs: {
     metaTitle: "Tài liệu PDownloader",
-    metaDescription: "Hướng dẫn cài đặt, tích hợp trình duyệt, xử lý sự cố và gỡ cài đặt PDownloader.",
+    metaDescription:
+      "Hướng dẫn cài đặt, tích hợp trình duyệt, xử lý sự cố và gỡ cài đặt PDownloader.",
     eyebrow: "Tài liệu hướng dẫn",
     title: "Hướng dẫn sử dụng PDownloader",
-    intro: "Chọn một chủ đề để tìm hiểu cách cài đặt, kết nối, sử dụng và xử lý sự cố PDownloader.",
+    intro:
+      "Chọn một chủ đề để tìm hiểu cách cài đặt, kết nối, sử dụng và xử lý sự cố PDownloader.",
     menu: "Danh mục tài liệu",
     loading: "Đang tải bài viết…",
     loadError: "Không thể tải bài viết này.",
@@ -55,14 +58,16 @@ export const vi = {
     eyebrow: "Trình quản lý tải xuống đa luồng · Windows",
     titlePrefix: "Chia nhỏ tệp.",
     titleGrad: "Không chia nhỏ sự kiên nhẫn.",
-    subtitle: "PDownloader chia các tệp lớn thành nhiều phân đoạn byte-range để tải xuống song song, tiếp tục các tác vụ bị gián đoạn giữa chừng và tải trực tiếp các luồng YouTube và HLS vào một hàng đợi gọn gàng — tất cả từ ứng dụng WPF native và tiện ích mở rộng trình duyệt.",
+    subtitle:
+      "PDownloader chia các tệp lớn thành nhiều phân đoạn byte-range để tải xuống song song, tiếp tục các tác vụ bị gián đoạn giữa chừng và tải trực tiếp các luồng YouTube và HLS vào một hàng đợi gọn gàng — tất cả từ ứng dụng WPF native và tiện ích mở rộng trình duyệt.",
     ctaPrimary: "Tải xuống cho Windows",
     ctaSecondary: "Xem mã nguồn trên GitHub",
     ctaExtension: "Cài tiện ích trình duyệt",
     metaThreads: "Mặc định 8 phân đoạn song song",
     metaStack: ".NET 10 · WPF · MVVM",
     metaLicense: "Giấy phép GPL-3.0",
-    previewLabel: "PDownloader.Runner minh họa ba trạng thái: đang tải xuống, đang ghép tệp và đã hoàn tất",
+    previewLabel:
+      "PDownloader.Runner minh họa ba trạng thái: đang tải xuống, đang ghép tệp và đã hoàn tất",
     runner: {
       title: "PDownloader — Trình tải xuống",
       downloading: "Đang tải xuống",
@@ -81,12 +86,14 @@ export const vi = {
     label: "download.bin",
     statusRunning: "đang tải — 8 phân đoạn",
     statusMerged: "đã hợp nhất thành 1 tệp",
-    caption: "Mỗi phân đoạn sử dụng một yêu cầu tải theo vùng dữ liệu riêng. Nếu một phân đoạn gặp lỗi, nó sẽ tự động thử lại với thời gian chờ tăng dần — các phân đoạn còn lại vẫn tiếp tục tải.",
+    caption:
+      "Mỗi phân đoạn sử dụng một yêu cầu tải theo vùng dữ liệu riêng. Nếu một phân đoạn gặp lỗi, nó sẽ tự động thử lại với thời gian chờ tăng dần — các phân đoạn còn lại vẫn tiếp tục tải.",
   },
   features: {
     eyebrow: "Khả năng",
     title: "Một công cụ, mọi loại tải xuống",
-    subtitle: "Cùng một công cụ xử lý tệp thông thường, kết nối gián đoạn và nội dung đa phương tiện trực tuyến — không cần sử dụng nhiều công cụ riêng biệt.",
+    subtitle:
+      "Cùng một công cụ xử lý tệp thông thường, kết nối gián đoạn và nội dung đa phương tiện trực tuyến — không cần sử dụng nhiều công cụ riêng biệt.",
     segments: {
       title: "Tải xuống đa phân đoạn",
       desc: "Chia tệp thành nhiều yêu cầu byte-range song song — mặc định 8 luồng — và tự động chuyển về tải đơn luồng khi máy chủ không hỗ trợ tải theo vùng dữ liệu.",
@@ -115,7 +122,8 @@ export const vi = {
   architecture: {
     eyebrow: "Bên trong hệ thống",
     title: "Bốn tiến trình nhỏ, một cầu nối cục bộ",
-    subtitle: "Tiện ích mở rộng trình duyệt giao tiếp với cầu nối HTTP cục bộ; từ đó, mọi dữ liệu được định tuyến thông qua lớp IPC riêng của PDownloader — CFS.",
+    subtitle:
+      "Tiện ích mở rộng trình duyệt giao tiếp với cầu nối HTTP cục bộ; từ đó, mọi dữ liệu được định tuyến thông qua lớp IPC riêng của PDownloader — CFS.",
     diagramLabel: "Kiến trúc các tiến trình của PDownloader",
     browser: "Tiện ích trình duyệt",
     browserSub: "menu chuột phải / popup",
@@ -140,14 +148,18 @@ export const vi = {
   extension: {
     eyebrow: "Tiện ích mở rộng trình duyệt",
     title: "Bắt liên kết mà không cần rời khỏi trang",
-    subtitle: "Hiện đã được phát hành chính thức trên Chrome Web Store cho các trình duyệt dựa trên nhân Chromium.",
+    subtitle:
+      "Hiện đã được phát hành chính thức trên Chrome Web Store cho các trình duyệt dựa trên nhân Chromium.",
     storeButton: "Cài tiện ích trình duyệt",
     supportNote: "Chrome · Edge · Brave · Cốc Cốc",
     bridgeOnline: "Cầu nối cục bộ sẵn sàng",
-    item1: "Các tùy chọn trong menu chuột phải dành cho liên kết, video và trang web.",
-    item2: "Cửa sổ popup để nhập URL thủ công, chọn thư mục lưu và liệt kê các liên kết có thể tải xuống trên trang.",
+    item1:
+      "Các tùy chọn trong menu chuột phải dành cho liên kết, video và trang web.",
+    item2:
+      "Cửa sổ popup để nhập URL thủ công, chọn thư mục lưu và liệt kê các liên kết có thể tải xuống trên trang.",
     item3: "Tự động bắt các lượt nhấp vào những loại tệp tải xuống phổ biến.",
-    item4: "Thông báo trên desktop khi thêm tác vụ thành công hoặc xảy ra lỗi kết nối.",
+    item4:
+      "Thông báo trên desktop khi thêm tác vụ thành công hoặc xảy ra lỗi kết nối.",
     flowStep1: 'nhấp "Tải xuống bằng PDownloader"',
     flowStep2: "POST localhost:6287/download",
     flowStep3: "Core phân tích & chuyển tiếp qua CFS",
@@ -155,7 +167,8 @@ export const vi = {
     modal: {
       eyebrow: "Tiện ích trình duyệt chính thức",
       title: "Chọn nhân trình duyệt",
-      subtitle: "Một gói tiện ích hỗ trợ tất cả trình duyệt được xây dựng trên cùng một nhân.",
+      subtitle:
+        "Một gói tiện ích hỗ trợ tất cả trình duyệt được xây dựng trên cùng một nhân.",
       close: "Đóng",
       available: "Đã hỗ trợ",
       comingSoon: "Sắp hỗ trợ",
@@ -163,7 +176,8 @@ export const vi = {
       chromiumDesc: "Cài đặt tiện ích chính thức từ Chrome Web Store.",
       chromiumBrowsersLabel: "Các trình duyệt Chromium đã hỗ trợ",
       geckoTitle: "Nhân Firefox (Gecko)",
-      geckoDesc: "Phiên bản dành cho Firefox và Zen Browser đang được hoàn thiện.",
+      geckoDesc:
+        "Phiên bản dành cho Firefox và Zen Browser đang được hoàn thiện.",
       geckoBrowsersLabel: "Các trình duyệt Gecko dự kiến hỗ trợ",
       openStore: "Mở Chrome Web Store",
     },
@@ -171,7 +185,8 @@ export const vi = {
   cta: {
     eyebrow: "Bắt đầu",
     title: "Tự build từ mã nguồn hoặc tải trình cài đặt",
-    subtitle: "PDownloader là phần mềm mã nguồn mở theo giấy phép GPL-3.0. Clone dự án, khám phá công cụ tải xuống hoặc đơn giản là cài đặt ứng dụng.",
+    subtitle:
+      "PDownloader là phần mềm mã nguồn mở theo giấy phép GPL-3.0. Clone dự án, khám phá công cụ tải xuống hoặc đơn giản là cài đặt ứng dụng.",
     primary: "Tải xuống phiên bản mới nhất",
     secondary: "Xem mã nguồn",
     req1: ".NET 10 SDK",
