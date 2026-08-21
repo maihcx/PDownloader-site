@@ -158,8 +158,8 @@ export const ja = {
     copy: "コマンドをコピー",
     copied: "コピーしました",
     copyError: "コピーに失敗しました",
-    terminalComment1: "# ソリューション全体を復元してビルド",
-    terminalComment2: "# Coreバックグラウンドサービスを自動起動",
+    terminalComment1: "# リポジトリをクローンしてソースフォルダーを開く",
+    terminalComment2: "# すべてのアプリと単一ファイルインストーラーをビルド",
   },
   footer: {
     tagline: "Windows用マルチセグメント・ダウンロードマネージャー。",

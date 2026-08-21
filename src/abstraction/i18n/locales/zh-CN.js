@@ -154,8 +154,8 @@ export const zhCN = {
     copy: "复制命令",
     copied: "已复制",
     copyError: "复制失败",
-    terminalComment1: "# 还原并构建整个解决方案",
-    terminalComment2: "# 自动启动 Core 后台服务",
+    terminalComment1: "# 克隆并进入源代码目录",
+    terminalComment2: "# 构建所有应用和单文件安装程序",
   },
   footer: {
     tagline: "Windows 多分段下载管理器。",

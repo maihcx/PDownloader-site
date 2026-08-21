@@ -160,8 +160,8 @@ export const id = {
     copy: "Salin perintah",
     copied: "Disalin",
     copyError: "Gagal menyalin",
-    terminalComment1: "# pulihkan dan bangun seluruh solusi",
-    terminalComment2: "# memulai layanan latar Core secara otomatis",
+    terminalComment1: "# kloning dan buka direktori sumber",
+    terminalComment2: "# bangun semua aplikasi dan pemasang satu berkas",
   },
   footer: {
     tagline: "Pengelola unduhan multisegmen untuk Windows.",

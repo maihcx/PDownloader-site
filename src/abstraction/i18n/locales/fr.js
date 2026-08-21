@@ -162,9 +162,9 @@ export const fr = {
     copy: "Copier les commandes",
     copied: "Copié",
     copyError: "Échec de la copie",
-    terminalComment1: "# restaurer et compiler toute la solution",
+    terminalComment1: "# cloner et ouvrir le dossier du code source",
     terminalComment2:
-      "# démarre automatiquement le service Core en arrière-plan",
+      "# compiler toutes les applications et l’installateur monofichier",
   },
   footer: {
     tagline: "Gestionnaire de téléchargements multisegment pour Windows.",

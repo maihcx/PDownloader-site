@@ -162,8 +162,8 @@ export const de = {
     copy: "Befehle kopieren",
     copied: "Kopiert",
     copyError: "Kopieren fehlgeschlagen",
-    terminalComment1: "# gesamte Projektmappe wiederherstellen und bauen",
-    terminalComment2: "# startet den Core-Hintergrunddienst automatisch",
+    terminalComment1: "# Repository klonen und Quellordner öffnen",
+    terminalComment2: "# alle Apps und den Einzeldatei-Installer bauen",
   },
   footer: {
     tagline: "Download-Manager mit mehreren Segmenten für Windows.",

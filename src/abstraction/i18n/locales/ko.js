@@ -158,8 +158,8 @@ export const ko = {
     copy: "명령어 복사",
     copied: "복사됨",
     copyError: "복사 실패",
-    terminalComment1: "# 전체 솔루션 복원 및 빌드",
-    terminalComment2: "# Core 백그라운드 서비스를 자동으로 시작",
+    terminalComment1: "# 저장소를 복제하고 소스 폴더 열기",
+    terminalComment2: "# 모든 앱과 단일 파일 설치 프로그램 빌드",
   },
   footer: {
     tagline: "Windows용 다중 세그먼트 다운로드 관리자.",

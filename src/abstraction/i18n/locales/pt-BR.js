@@ -161,9 +161,9 @@ export const ptBR = {
     copy: "Copiar comandos",
     copied: "Copiado",
     copyError: "Falha ao copiar",
-    terminalComment1: "# restaura e compila toda a solução",
+    terminalComment1: "# clone e abra a pasta do código-fonte",
     terminalComment2:
-      "# inicia automaticamente o serviço Core em segundo plano",
+      "# compile todos os aplicativos e o instalador de arquivo único",
   },
   footer: {
     tagline: "Gerenciador de downloads multissegmento para Windows.",

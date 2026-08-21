@@ -161,9 +161,9 @@ export const es = {
     copy: "Copiar comandos",
     copied: "Copiado",
     copyError: "Error al copiar",
-    terminalComment1: "# restaura y compila toda la solución",
+    terminalComment1: "# clona y abre la carpeta del código fuente",
     terminalComment2:
-      "# inicia automáticamente el servicio Core en segundo plano",
+      "# compila todas las aplicaciones y el instalador de un solo archivo",
   },
   footer: {
     tagline: "Gestor de descargas multisegmento para Windows.",
