@@ -8,7 +8,7 @@ PDownloader là trình quản lý tải xuống native dành cho Windows, đư�
 - Tiếp tục và thử lại khi kết nối hoặc ứng dụng bị gián đoạn.
 - Thu thập rồi ghép các phân mảnh của luồng HLS và DASH.
 - Phân tích URL video và nội dung đa phương tiện bằng `yt-dlp`.
-- Chuyển tác vụ từ trình duyệt sang ứng dụng thông qua tiện ích Chromium chính thức.
+- Chuyển tác vụ từ trình duyệt sang ứng dụng thông qua tiện ích Chromium và Firefox chính thức.
 
 ## Các thành phần phối hợp với nhau
 

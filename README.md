@@ -20,7 +20,10 @@ PDownloader is developed across the following repositories:
 
 ## Distribution
 
-The official extension package for Chromium-based browsers is available from the [Chrome Web Store](https://chromewebstore.google.com/detail/kdbapmeegoljihpndnbfeockjjcoogbp).
+The official browser extension is available for both major browser engines:
+
+- Chromium browsers: [Chrome Web Store](https://chromewebstore.google.com/detail/kdbapmeegoljihpndnbfeockjjcoogbp)
+- Firefox/Gecko browsers: [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/3ac2c3eaa9924d259be6/)
 
 ## Documentation Route
 

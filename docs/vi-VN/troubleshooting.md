@@ -5,7 +5,7 @@
 - Kiểm tra ứng dụng desktop và thành phần chạy nền đã được khởi động.
 - Khởi động lại PDownloader rồi tải lại tab trình duyệt.
 - Kiểm tra phần mềm bảo mật có đang chặn giao tiếp cục bộ hay không.
-- Xác nhận bạn đang dùng đúng phiên bản chính thức từ Chrome Web Store.
+- Xác nhận bạn đang dùng đúng phiên bản chính thức từ Chrome Web Store hoặc Firefox Add-ons.
 
 ## Liên kết vẫn được tải bằng trình duyệt
 

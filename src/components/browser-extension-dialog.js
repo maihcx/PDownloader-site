@@ -4,7 +4,7 @@ export function initBrowserExtensionDialog() {
 
   const openButtons = document.querySelectorAll("[data-extension-dialog-open]");
   const closeButton = dialog.querySelector("[data-extension-dialog-close]");
-  const chromiumLink = dialog.querySelector("[data-extension-chromium-link]");
+  const storeLinks = dialog.querySelectorAll("[data-extension-store-link]");
   let activeTrigger = null;
 
   const closeDialog = () => {
@@ -20,7 +20,7 @@ export function initBrowserExtensionDialog() {
   });
 
   closeButton?.addEventListener("click", closeDialog);
-  chromiumLink?.addEventListener("click", closeDialog);
+  storeLinks.forEach((link) => link.addEventListener("click", closeDialog));
 
   dialog.addEventListener("click", (event) => {
     if (event.target === dialog) closeDialog();

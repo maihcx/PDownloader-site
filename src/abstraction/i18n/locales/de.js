@@ -88,7 +88,7 @@ export const de = {
     },
     extension: {
       title: "Browser-Erweiterung",
-      desc: "Manifest-V3-Erweiterung für Chrome, Edge, Brave und Cốc Cốc mit Kontextmenü, URL-Eingabe und automatischer Erkennung von Download-Links.",
+      desc: "Offizielle Erweiterung für Chromium- und Firefox-Browser mit Kontextmenü, URL-Eingabe und automatischer Erkennung von Download-Links.",
     },
     tray: {
       title: "Infobereich und Hintergrunddienst",
@@ -118,7 +118,7 @@ export const de = {
     eyebrow: "Browser-Erweiterung",
     title: "Links direkt von der Webseite übernehmen",
     subtitle:
-      "Offiziell im Chrome Web Store für Chromium-basierte Browser verfügbar.",
+      "Offiziell für Chromium- und Firefox-basierte Browser verfügbar.",
     storeButton: "Browser-Erweiterung installieren",
     bridgeOnline: "Lokale Brücke bereit",
     item1: "Kontextmenüeinträge für Links, Videos und Seiten.",
@@ -138,16 +138,15 @@ export const de = {
         "Ein Erweiterungspaket unterstützt alle Browser mit derselben Engine.",
       close: "Schließen",
       available: "Verfügbar",
-      comingSoon: "Bald verfügbar",
       chromiumTitle: "Chromium-Engine",
       chromiumDesc:
         "Installieren Sie die offizielle Erweiterung aus dem Chrome Web Store.",
       chromiumBrowsersLabel: "Unterstützte Chromium-Browser",
       geckoTitle: "Firefox-Engine (Gecko)",
-      geckoDesc:
-        "Die Veröffentlichung für Firefox und Zen Browser wird vorbereitet.",
-      geckoBrowsersLabel: "Geplante Gecko-Browser",
+      geckoDesc: "Installieren Sie die offizielle Erweiterung über Firefox Add-ons.",
+      geckoBrowsersLabel: "Unterstützte Gecko-Browser",
       openStore: "Chrome Web Store öffnen",
+      openFirefoxAddons: "Firefox Add-ons öffnen",
     },
   },
   cta: {

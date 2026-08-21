@@ -88,7 +88,7 @@ export const id = {
     },
     extension: {
       title: "Ekstensi browser",
-      desc: "Ekstensi Manifest V3 untuk Chrome, Edge, Brave, dan Cốc Cốc dengan menu konteks, masukan URL, serta deteksi otomatis tautan unduhan.",
+      desc: "Ekstensi resmi untuk browser Chromium dan Firefox dengan menu konteks, masukan URL, serta deteksi otomatis tautan unduhan.",
     },
     tray: {
       title: "Baki sistem dan layanan latar",
@@ -118,7 +118,7 @@ export const id = {
     eyebrow: "Ekstensi browser",
     title: "Tangkap tautan tanpa meninggalkan halaman",
     subtitle:
-      "Tersedia resmi di Chrome Web Store untuk browser berbasis Chromium.",
+      "Tersedia resmi untuk browser berbasis Chromium dan Firefox.",
     storeButton: "Pasang ekstensi browser",
     bridgeOnline: "Jembatan lokal siap",
     item1: "Pilihan menu konteks pada tautan, video, dan halaman.",
@@ -137,14 +137,14 @@ export const id = {
         "Satu paket ekstensi mendukung semua browser yang memakai mesin sama.",
       close: "Tutup",
       available: "Tersedia",
-      comingSoon: "Segera hadir",
       chromiumTitle: "Mesin Chromium",
       chromiumDesc: "Pasang ekstensi resmi dari Chrome Web Store.",
       chromiumBrowsersLabel: "Browser Chromium yang didukung",
       geckoTitle: "Mesin Firefox (Gecko)",
-      geckoDesc: "Rilis untuk Firefox dan Zen Browser sedang disiapkan.",
-      geckoBrowsersLabel: "Browser Gecko yang direncanakan",
+      geckoDesc: "Pasang ekstensi resmi dari Firefox Add-ons.",
+      geckoBrowsersLabel: "Browser Gecko yang didukung",
       openStore: "Buka Chrome Web Store",
+      openFirefoxAddons: "Buka Firefox Add-ons",
     },
   },
   cta: {

@@ -88,7 +88,7 @@ export const es = {
     },
     extension: {
       title: "Extensión del navegador",
-      desc: "Extensión Manifest V3 para Chrome, Edge, Brave y Cốc Cốc con menú contextual, entrada de URL y detección automática de enlaces descargables.",
+      desc: "Extensión oficial para navegadores Chromium y Firefox con menú contextual, entrada de URL y detección automática de enlaces descargables.",
     },
     tray: {
       title: "Bandeja y servicio en segundo plano",
@@ -118,7 +118,7 @@ export const es = {
     eyebrow: "Extensión del navegador",
     title: "Captura enlaces sin salir de la página",
     subtitle:
-      "Disponible oficialmente en Chrome Web Store para navegadores basados en Chromium.",
+      "Disponible oficialmente para navegadores basados en Chromium y Firefox.",
     storeButton: "Instalar extensión del navegador",
     bridgeOnline: "Puente local listo",
     item1: "Opciones del menú contextual en enlaces, vídeos y páginas.",
@@ -138,14 +138,14 @@ export const es = {
         "Un mismo paquete funciona en todos los navegadores que comparten motor.",
       close: "Cerrar",
       available: "Disponible",
-      comingSoon: "Próximamente",
       chromiumTitle: "Motor Chromium",
       chromiumDesc: "Instala la extensión oficial desde Chrome Web Store.",
       chromiumBrowsersLabel: "Navegadores Chromium compatibles",
       geckoTitle: "Motor Firefox (Gecko)",
-      geckoDesc: "Se está preparando la versión para Firefox y Zen Browser.",
-      geckoBrowsersLabel: "Navegadores Gecko previstos",
+      geckoDesc: "Instala la extensión oficial desde Firefox Add-ons.",
+      geckoBrowsersLabel: "Navegadores Gecko compatibles",
       openStore: "Abrir Chrome Web Store",
+      openFirefoxAddons: "Abrir Firefox Add-ons",
     },
   },
   cta: {

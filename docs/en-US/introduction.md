@@ -8,7 +8,7 @@ PDownloader is a native Windows download manager designed for large files, unsta
 - Resume and retry when a connection or application session is interrupted.
 - HLS and DASH media streams that need fragment collection and merging.
 - Video and media URLs resolved with `yt-dlp`.
-- Browser-to-desktop transfers through the official Chromium extension.
+- Browser-to-desktop transfers through the official Chromium and Firefox extensions.
 
 ## How the pieces work together
 

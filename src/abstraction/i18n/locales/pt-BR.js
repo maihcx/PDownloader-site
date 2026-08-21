@@ -88,7 +88,7 @@ export const ptBR = {
     },
     extension: {
       title: "Extensão do navegador",
-      desc: "Extensão Manifest V3 para Chrome, Edge, Brave e Cốc Cốc com menu de contexto, entrada de URL e detecção automática de links para download.",
+      desc: "Extensão oficial para navegadores Chromium e Firefox com menu de contexto, entrada de URL e detecção automática de links para download.",
     },
     tray: {
       title: "Bandeja e serviço em segundo plano",
@@ -118,7 +118,7 @@ export const ptBR = {
     eyebrow: "Extensão do navegador",
     title: "Capture links sem sair da página",
     subtitle:
-      "Disponível oficialmente na Chrome Web Store para navegadores baseados em Chromium.",
+      "Disponível oficialmente para navegadores baseados em Chromium e Firefox.",
     storeButton: "Instalar extensão do navegador",
     bridgeOnline: "Ponte local pronta",
     item1: "Opções no menu de contexto de links, vídeos e páginas.",
@@ -138,14 +138,14 @@ export const ptBR = {
         "Um pacote de extensão funciona em todos os navegadores baseados no mesmo mecanismo.",
       close: "Fechar",
       available: "Disponível",
-      comingSoon: "Em breve",
       chromiumTitle: "Mecanismo Chromium",
       chromiumDesc: "Instale a extensão oficial pela Chrome Web Store.",
       chromiumBrowsersLabel: "Navegadores Chromium compatíveis",
       geckoTitle: "Mecanismo Firefox (Gecko)",
-      geckoDesc: "A versão para Firefox e Zen Browser está sendo preparada.",
-      geckoBrowsersLabel: "Navegadores Gecko planejados",
+      geckoDesc: "Instale a extensão oficial pelo Firefox Add-ons.",
+      geckoBrowsersLabel: "Navegadores Gecko compatíveis",
       openStore: "Abrir Chrome Web Store",
+      openFirefoxAddons: "Abrir Firefox Add-ons",
     },
   },
   cta: {

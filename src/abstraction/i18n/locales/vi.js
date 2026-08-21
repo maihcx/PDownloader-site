@@ -112,7 +112,7 @@ export const vi = {
     },
     extension: {
       title: "Tiện ích mở rộng trình duyệt",
-      desc: "Tiện ích Manifest V3 dành cho Chrome, Edge, Brave và Cốc Cốc — hỗ trợ tải xuống từ menu chuột phải, nhập URL qua cửa sổ popup và tự động phát hiện các liên kết tải xuống.",
+      desc: "Tiện ích chính thức dành cho trình duyệt Chromium và Firefox — hỗ trợ tải xuống từ menu chuột phải, nhập URL qua cửa sổ popup và tự động phát hiện các liên kết tải xuống.",
     },
     tray: {
       title: "Khay hệ thống & dịch vụ nền",
@@ -149,9 +149,9 @@ export const vi = {
     eyebrow: "Tiện ích mở rộng trình duyệt",
     title: "Bắt liên kết mà không cần rời khỏi trang",
     subtitle:
-      "Hiện đã được phát hành chính thức trên Chrome Web Store cho các trình duyệt dựa trên nhân Chromium.",
+      "Đã được phát hành chính thức cho các trình duyệt dựa trên nhân Chromium và Firefox.",
     storeButton: "Cài tiện ích trình duyệt",
-    supportNote: "Chrome · Edge · Brave · Cốc Cốc",
+    supportNote: "Chrome · Edge · Brave · Cốc Cốc · Firefox · Zen",
     bridgeOnline: "Cầu nối cục bộ sẵn sàng",
     item1:
       "Các tùy chọn trong menu chuột phải dành cho liên kết, video và trang web.",
@@ -171,15 +171,14 @@ export const vi = {
         "Một gói tiện ích hỗ trợ tất cả trình duyệt được xây dựng trên cùng một nhân.",
       close: "Đóng",
       available: "Đã hỗ trợ",
-      comingSoon: "Sắp hỗ trợ",
       chromiumTitle: "Nhân Chromium",
       chromiumDesc: "Cài đặt tiện ích chính thức từ Chrome Web Store.",
       chromiumBrowsersLabel: "Các trình duyệt Chromium đã hỗ trợ",
       geckoTitle: "Nhân Firefox (Gecko)",
-      geckoDesc:
-        "Phiên bản dành cho Firefox và Zen Browser đang được hoàn thiện.",
-      geckoBrowsersLabel: "Các trình duyệt Gecko dự kiến hỗ trợ",
+      geckoDesc: "Cài đặt tiện ích chính thức từ Firefox Add-ons.",
+      geckoBrowsersLabel: "Các trình duyệt Gecko đã hỗ trợ",
       openStore: "Mở Chrome Web Store",
+      openFirefoxAddons: "Mở Firefox Add-ons",
     },
   },
   cta: {

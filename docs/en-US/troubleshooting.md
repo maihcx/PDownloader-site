@@ -5,7 +5,7 @@
 - Make sure the desktop application and its background component are running.
 - Restart PDownloader, then reload the browser tab.
 - Check whether security software is blocking local communication.
-- Confirm that the installed extension is the official Chrome Web Store version.
+- Confirm that the installed extension is the official Chrome Web Store or Firefox Add-ons version.
 
 ## A link downloads in the browser instead
 

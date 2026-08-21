@@ -113,7 +113,7 @@ export const en = {
     },
     extension: {
       title: "Browser extension",
-      desc: "Manifest V3 extension for Chrome, Edge, Brave, and Cốc Cốc — context-menu capture, a URL popup, and auto-detected download links.",
+      desc: "Official extension for Chromium and Firefox browsers — context-menu capture, a URL popup, and auto-detected download links.",
     },
     tray: {
       title: "Tray & background service",
@@ -150,9 +150,9 @@ export const en = {
     eyebrow: "Browser extension",
     title: "Capture links without leaving the page",
     subtitle:
-      "Now officially available on the Chrome Web Store for Chromium-based browsers.",
+      "Officially available for Chromium and Firefox-based browsers.",
     storeButton: "Install browser extension",
-    supportNote: "Chrome · Edge · Brave · Cốc Cốc",
+    supportNote: "Chrome · Edge · Brave · Cốc Cốc · Firefox · Zen",
     bridgeOnline: "Local bridge ready",
     item1: "Context menu entries on links, videos, and pages.",
     item2:
@@ -170,14 +170,14 @@ export const en = {
         "One extension package supports every browser built on the same engine.",
       close: "Close",
       available: "Available",
-      comingSoon: "Coming soon",
       chromiumTitle: "Chromium engine",
       chromiumDesc: "Install the official extension from the Chrome Web Store.",
       chromiumBrowsersLabel: "Supported Chromium browsers",
       geckoTitle: "Firefox engine (Gecko)",
-      geckoDesc: "The Firefox and Zen Browser release is being prepared.",
-      geckoBrowsersLabel: "Planned Gecko browsers",
+      geckoDesc: "Install the official extension from Firefox Add-ons.",
+      geckoBrowsersLabel: "Supported Gecko browsers",
       openStore: "Open Chrome Web Store",
+      openFirefoxAddons: "Open Firefox Add-ons",
     },
   },
   cta: {
