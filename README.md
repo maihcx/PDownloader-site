@@ -2,17 +2,25 @@
 
 > This is the standalone website repository for PDownloader. The Windows application and download engine continue to live in the [main PDownloader repository](https://github.com/maihcx/PDownloader).
 
+> **Official website:** [https://pdownloader.maisoft.io.vn/](https://pdownloader.maisoft.io.vn/)
+
 PDownloader is a native download manager built for segmented transfers, interrupted-download recovery, and browser-assisted media capture. This website introduces the project, explains its architecture, and guides users to the correct installer and browser extension.
 
 The website uses plain HTML, CSS, JavaScript, and Markdown. It can be published directly with GitHub Pages without a production build step.
 
-## Repository Roles
+## Source Code
 
-| Repository or resource | Purpose |
-| --- | --- |
-| [PDownloader](https://github.com/maihcx/PDownloader) | Windows application, download engine, browser integration source, and releases. |
-| [PDownloader-site](https://github.com/maihcx/PDownloader-site) — you are here | Website interface, translations, documentation reader, and Markdown articles. |
-| [Chrome Web Store](https://chromewebstore.google.com/detail/kdbapmeegoljihpndnbfeockjjcoogbp) | Official extension package for Chromium-based browsers. |
+PDownloader is developed across the following repositories:
+
+| Component | Repository | Purpose |
+| --- | --- | --- |
+| Main App | [maihcx/PDownloader](https://github.com/maihcx/PDownloader) | Windows application, download engine, and releases. |
+| Browser Extension | [maihcx/PDownloader-browser-ext](https://github.com/maihcx/PDownloader-browser-ext) | Browser integration, download interception, and media capture. |
+| **Website** | **[maihcx/PDownloader-site](https://github.com/maihcx/PDownloader-site) ← You are here** | Website interface, translations, documentation reader, and Markdown articles. |
+
+## Distribution
+
+The official extension package for Chromium-based browsers is available from the [Chrome Web Store](https://chromewebstore.google.com/detail/kdbapmeegoljihpndnbfeockjjcoogbp).
 
 ## Documentation Route
 
