@@ -6,10 +6,6 @@ Tích hợp trình duyệt của PDownloader gửi các liên kết được h�
 
 Gói trên Chrome Web Store hoạt động với Chrome, Edge, Brave, Opera, Vivaldi, Cốc Cốc và các trình duyệt chấp nhận tiện ích Chromium. Gói trên Firefox Add-ons hỗ trợ Firefox và các trình duyệt tương thích dựa trên Gecko như Zen Browser.
 
-## Firefox (Gecko)
-
-Cài đặt bản Gecko chính thức từ [trang PDownloader trên Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/3ac2c3eaa9924d259be6/).
-
 ## Cài đặt tiện ích
 
 1. Cài đặt và mở ứng dụng PDownloader trên Windows.

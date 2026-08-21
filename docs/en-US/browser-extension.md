@@ -6,10 +6,6 @@ PDownloader browser integration sends supported links and detected media to the 
 
 The Chrome Web Store package works with Chrome, Edge, Brave, Opera, Vivaldi, Cốc Cốc, and other browsers that accept Chromium extensions. The Firefox Add-ons package supports Firefox and compatible Gecko-based browsers such as Zen Browser.
 
-## Firefox (Gecko)
-
-Install the official Gecko build from the [PDownloader page on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/3ac2c3eaa9924d259be6/).
-
 ## Set up the extension
 
 1. Install and start the PDownloader desktop application.
